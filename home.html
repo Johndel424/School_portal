@@ -1,0 +1,490 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="/assets/imgs/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <title>Portal</title>
+</head>
+<body >
+            <header>
+          
+                <div class="navbar fixed">
+                    <div class="piclogo">
+                        <img src="asset/imgs/logo.png" alt="Your Logo">
+                    </div>
+                    <div class="boy">
+                        <img src="asset/imgs/boy.png" alt="">
+                    </div>
+                    <div class="titttle">
+                        <h1>St. James Academy</h1>
+                        <h1 class="scol">SCHOOL PORTAL</h1>
+                    </div>
+                    <div class="girl">
+                        <img src="asset/imgs/girl.png" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                
+                </div>
+            
+            
+        
+    </header>
+<div class="mainn">
+            <div class="main">
+                    <div class="side-panel">
+                            <div class="burger">
+                                 <img src="asset/imgs/icons8-menu-50.png"  id="myImage" onclick="changeImage()" alt="">
+                            </div>
+                            <div class="container">
+                                <div class="frame">
+                                    <img src="asset/imgs/FRAME.png" alt="">
+                                    <div class="textt">
+                                        <h1>Joaquin  Santos</h1>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="side-panel-list">
+                        <ul>
+                            <li onclick="showContent('dashboard')">Dashboard</li>
+                            <li onclick="showContent('calendar')">Calendar</li>
+                            <li class="dashboard-link">
+                                Student
+                                <img src="asset/imgs/icons8-arrow-down-50.png" alt="Right Image"> <!-- Image on the right -->
+                            </li>
+                            <div class="hidden-content">
+                                <li class="sub-list">Grades</li>
+                                <li class="sub-list">Subject</li>
+                                <li class="sub-list">Course</li>
+                            </div>
+                            <li onclick="showContent('enrollment')">Enrollment</li>
+                            <li onclick="showContent('faq')">FAQ</li>
+                            <!-- Add more list items as needed -->
+                        </ul>
+                    </div>
+                    
+                    
+            </div>
+            <div class="content-div dashboard" id="dashboard">
+                <div class="border">
+                    <h1>Welcome Back, <br>Joaquin!</h1>
+                    <h2>Today is November 20, 2023 - 9:00AM</h2>
+                    <div class="side-pic">
+                        <img src="asset/imgs/boy.png" alt="">
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="icon">
+                            <img src="asset/imgs/profile.png" alt="">
+                        </div>
+                        <div class="label">
+                            <h1>PROFILE</h1>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="icon">
+                            <img src="asset/imgs/grades.png" alt="">
+                        </div>
+                        <div class="label">
+                            <h1>GRADES</h1>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="icon">
+                            <img src="asset/imgs/documents.png" alt="">
+                        </div>
+                        <div class="label">
+                            <h1>DOCUMENTS</h1>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="icon">
+                            <img src="asset/imgs/enrollment.png" alt="">
+                        </div>
+                        <div class="label">
+                            <h1>ENROLLMENT</h1>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="icon">
+                            <img src="asset/imgs/notif.png" alt="">
+                        </div>
+                        <div class="label">
+                            <h1>NOTIFICTIONS</h1>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="icon">
+                            <img src="asset/imgs/attendance.png" alt="">
+                        </div>
+                        <div class="label">
+                            <h1>ATTENDANCE</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-div faq" id="faq">
+                <div class="accordion ">
+                    <div class="accordion-item">
+                    <div class="accordion-item-header">
+                    How to change  password?
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                        To change your password, please follow these step procedures.
+                            Goto account setting
+                            Click the "change password" tab
+                            Enter your current password.
+                            Enter your new password.
+                            Re-enter your new password to confirm.
+                            Save the new password.
+                            Please take note that your password will expire exaclty 1 month, please change your password regularly.
+                                    </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <div class="accordion-item-header">
+                    How to change my user photo
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                        To change your user photo, please follow these step procedures.
+                        Goto account setting
+                        Click the "change avatar" tab
+                        select an image you want to upload
+                        Click the submit button to confirm image.
+                        Please take note that the system allows only an image file format with size not greater than 1mb.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <div class="accordion-item-header">
+                    How to update personal info
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                        Lorem ipsum dolor sit amet. Aut eius amet aut dolor odit et possimus aperiam qui deserunt voluptatum ad voluptas voluptas. Non quasi nobis ex iusto dolores et debitis voluptatem aut rerum ducimus et mollitia cumque aut earum molestiae sit laboriosam libero? Aut illum placeat ad vitae eius et reiciendis modi et magni inventore ut optio aliquam est voluptatem animi qui placeat nisi. In dolore culpa ea quia sunt ab exercitationem aperiam sed quibusdam dolores et odio beatae qui alias sint eos totam perferendis.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <div class="accordion-item-header">
+                        User agreement
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                        Lorem ipsum dolor sit amet. Aut eius amet aut dolor odit et possimus aperiam qui deserunt voluptatum ad voluptas voluptas. Non quasi nobis ex iusto dolores et debitis voluptatem aut rerum ducimus et mollitia cumque aut earum molestiae sit laboriosam libero? Aut illum placeat ad vitae eius et reiciendis modi et magni inventore ut optio aliquam est voluptatem animi qui placeat nisi. In dolore culpa ea quia sunt ab exercitationem aperiam sed quibusdam dolores et odio beatae qui alias sint eos totam perferendis.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <div class="accordion-item-header">
+                    Policies
+                    </div>
+                    <div class="accordion-item-body">
+                        <div class="accordion-item-body-content">
+                        Lorem ipsum dolor sit amet. Aut eius amet aut dolor odit et possimus aperiam qui deserunt voluptatum ad voluptas voluptas. Non quasi nobis ex iusto dolores et debitis voluptatem aut rerum ducimus et mollitia cumque aut earum molestiae sit laboriosam libero? Aut illum placeat ad vitae eius et reiciendis modi et magni inventore ut optio aliquam est voluptatem animi qui placeat nisi. In dolore culpa ea quia sunt ab exercitationem aperiam sed quibusdam dolores et odio beatae qui alias sint eos totam perferendis.
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-div faq" id="enrollment">
+                        <div class="container">
+                            <header>Student Enrollment</header>
+                            <form action="#">
+                                <div class="form first">
+                                    <div class="details personal">
+                                        <span class="title">Personal Details</span>
+                                        <div class="fields">
+                                            <div class="input-field">
+                                                <label>Full Name</label>
+                                                <input type="text" placeholder="Enter your name" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Date of Birth</label>
+                                                <input type="date" placeholder="Enter birth date" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Email</label>
+                                                <input type="text" placeholder="Enter your email" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Mobile Number</label>
+                                                <input type="number" placeholder="Enter mobile number" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Gender</label>
+                                                <select required>
+                                                    <option disabled selected>Select gender</option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                    <option>Others</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Age</label>
+                                                <input type="number" placeholder="Enter your Age" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="details ID">
+                                        <span class="title">Identity Details</span>
+                                        <div class="fields">
+                                            <div class="input-field">
+                                                <label>Section</label>
+                                                <input type="text" placeholder="Enter section" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Year Level</label>
+                                                <input type="number" placeholder="Enter year level" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>ID Number</label>
+                                                <input type="number" placeholder="Enter id number" required>
+                                            </div>
+                                            <!-- <div class="input-field">
+                                                <label>Issued year</label>
+                                                <input type="text" placeholder="Enter issued year" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Issued Date</label>
+                                                <input type="date" placeholder="Enter your issued date" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Expiry Date</label>
+                                                <input type="date" placeholder="Enter expiry date" required>
+                                            </div> -->
+                                        </div>
+                                        <button class="nextBtn">
+                                            <span class="btnText">Next</span>
+                                            <i class="uil uil-navigator"></i>
+                                        </button>
+                                    </div> 
+                                </div>
+                                <div class="form second">
+                                    <div class="details address">
+                                        <span class="title">Address Details</span>
+                                        <div class="fields">
+                                            <div class="input-field">
+                                                <label>Address Type</label>
+                                                <input type="text" placeholder="Permanent or Temporary" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Nationality</label>
+                                                <input type="text" placeholder="Enter nationality" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>State</label>
+                                                <input type="text" placeholder="Enter your state" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>District</label>
+                                                <input type="text" placeholder="Enter your district" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Block Number</label>
+                                                <input type="number" placeholder="Enter block number" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Ward Number</label>
+                                                <input type="number" placeholder="Enter ward number" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="details family">
+                                        <span class="title">Family Details</span>
+                                        <div class="fields">
+                                            <div class="input-field">
+                                                <label>Father Name</label>
+                                                <input type="text" placeholder="Enter father name" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Mother Name</label>
+                                                <input type="text" placeholder="Enter mother name" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Grandfather</label>
+                                                <input type="text" placeholder="Enter grandfther name" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Grandmother </label>
+                                                <input type="text" placeholder="Enter Grandmother name" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Father in Law</label>
+                                                <input type="text" placeholder="Father in law name" required>
+                                            </div>
+                                            <div class="input-field">
+                                                <label>Mother in Law</label>
+                                                <input type="text" placeholder="Mother in law name" required>
+                                            </div>
+                                        </div>
+                                        <div class="buttons">
+                                            <div class="backBtn">
+                                                <i class="uil uil-navigator"></i>
+                                                <span class="btnText">Back</span>
+                                            </div>
+                                            
+                                            <button class="sumbit">
+                                                <span class="btnText">Submit</span>
+                                                <i class="uil uil-navigator"></i>
+                                            </button>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </form>
+                        </div>
+            </div> 
+            <div class="content-div calendar" id="calendar">
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1<br>Start of Classes</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                      </tr>
+                      <tr>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                      </tr>
+                      <tr>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                      </tr>
+                      <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+            </div>
+            
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.dashboard-link').click(function() {
+            $('.hidden-content').toggle(); // Show/hide the additional content
+
+            // Toggle margin-top based on the current value
+            var currentMarginTop = parseInt($('.side-panel-list').css('margin-top'));
+            var newMarginTop = currentMarginTop === 0 ? -80 : 0;
+
+            $('.side-panel-list').css('margin-top', newMarginTop);
+        });
+    });
+    let imageIndex = 1;
+
+    function changeImage() {
+    const image = document.getElementById('myImage');
+    
+    if (imageIndex === 1) {
+        image.src = 'asset/imgs/x.png';
+        image.alt = 'New Image';
+        imageIndex = 2;
+    } else {
+        image.src = 'asset/imgs/icons8-menu-50.png';
+        image.alt = 'Old Image';
+        imageIndex = 1;
+    }
+    }
+    const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+accordionItemHeaders.forEach(accordionItemHeader => {
+  accordionItemHeader.addEventListener("click", event => {
+    
+    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+    
+    const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+      currentlyActiveAccordionItemHeader.classList.toggle("active");
+      currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    }
+
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+      accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+    else {
+      accordionItemBody.style.maxHeight = 0;
+    }
+    
+  });
+});
+// function showContent(contentId) {
+//       // itago ang dashboard
+//       var dashboardContent = document.getElementById('dashboard');
+//       if (dashboardContent) {
+//         dashboardContent.style.display = 'none';
+//       }
+
+//       // gawing visible ang FAQ
+//       var faqContent = document.getElementById('faq');
+//       if (faqContent) {
+//         faqContent.style.display = 'block';
+//       }
+//     } 
+    function showContent(contentId) {
+      // Itago ang lahat ng content div
+      var allContentDivs = document.querySelectorAll('.content-div');
+      allContentDivs.forEach(function(div) {
+        div.style.display = 'none';
+      });
+
+      // Ipakita lamang ang napiling content div
+      var selectedContentDiv = document.getElementById(contentId);
+      selectedContentDiv.style.display = 'block';
+    }   
+</script>
+</html>
